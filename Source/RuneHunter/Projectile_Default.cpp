@@ -30,8 +30,9 @@ AProjectile_Default::AProjectile_Default()
 
 	if (!ProjMoveComponent) {
 		ProjMoveComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("MovementComponent"));
-		ProjMoveComponent->InitialSpeed = 1000.0f;
-		ProjMoveComponent->MaxSpeed = 1000.0f;
+		ProjMoveComponent->SetUpdatedComponent(ProjCollisionComponent);
+		ProjMoveComponent->InitialSpeed = 3000.0f;
+		ProjMoveComponent->MaxSpeed = 3000.0f;
 		ProjMoveComponent->bShouldBounce = false;
 		ProjMoveComponent->bRotationFollowsVelocity = true;
 		ProjMoveComponent->ProjectileGravityScale = 0.0f;
