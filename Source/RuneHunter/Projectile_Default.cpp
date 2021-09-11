@@ -13,14 +13,13 @@ AProjectile_Default::AProjectile_Default()
 		ProjCollisionComponent = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComponent"));
 		ProjCollisionComponent->BodyInstance.SetCollisionProfileName(TEXT("Projectile"));
 		ProjCollisionComponent->InitSphereRadius(15.0f);
-		//ProjCollisionComponent->SetupAttachment(RootComponent);
 		RootComponent = ProjCollisionComponent;
 	}
 
 	if (!ProjMeshComponent) {
 		ProjMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
 
-		static ConstructorHelpers::FObjectFinder<UStaticMesh>Mesh(TEXT("StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'"));
+		static ConstructorHelpers::FObjectFinder<UStaticMesh>Mesh(TEXT("StaticMesh'/Game/Abilities/basicSphere.basicSphere'"));	//default mesh
 		if (Mesh.Succeeded()) {
 			ProjMeshComponent->SetStaticMesh(Mesh.Object);
 		}
@@ -38,8 +37,6 @@ AProjectile_Default::AProjectile_Default()
 		ProjMoveComponent->ProjectileGravityScale = 0.0f;
 
 	}
-
-	InitialLifeSpan = 3.0f;
 }
 
 // Called when the game starts or when spawned
