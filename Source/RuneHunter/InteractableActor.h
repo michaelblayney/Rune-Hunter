@@ -7,6 +7,10 @@
 #include "Components/SphereComponent.h"
 #include "InteractableActor.generated.h"
 
+/**
+* Represents all actors in the game which can be interacted using the interact action.
+* All actors that need to be interactable needs to inherit this class.
+**/
 UCLASS()
 class RUNEHUNTER_API AInteractableActor : public AActor
 {
