@@ -8,6 +8,8 @@ External Libraries Used:
 
 No external libraries were used for this project. Only libraries loaded into any basic Unreal project were utilized. With the exception of a single transparency plugin for making the player visible when there is a wall between character mesh and camera; all textures, materials and meshes were made by the design team. All code was done from scratch using either base Unreal functions or software team coded C++ functions.
 
+Link to fade plugin: https://www.unrealengine.com/marketplace/en-US/product/advanced-fade-objects
+
 Controls:
 
 Move Up/ Down/ Left/ Right : W/A/S/D
