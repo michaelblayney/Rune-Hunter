@@ -15,6 +15,7 @@ Link to fade plugin: https://www.unrealengine.com/marketplace/en-US/product/adva
 Move Up/ Down/ Left/ Right : W/A/S/D </br>
 Dodge Action : Spacebar </br>
 Shoot/ Use Ability : Left Mouse Button </br>
+Interact with glowing powerups : E key </br>
 Pause Game : Escape </br>
 Aim : Follows Mouse Cursor
 
