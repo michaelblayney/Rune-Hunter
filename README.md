@@ -33,6 +33,5 @@ Currently no compatible version is available due to some compilation errors that
 
 Demo Video: https://drive.google.com/file/d/1SkLB9TF2dQR4rWbPDPxB5dR5VkUhWJ04/view
 
-Code Video:
-https://drive.google.com/file/d/1weyC4EiK1SVMONMlMGk30Jc1bhiJChel/view?usp=sharing
+Code Video: https://drive.google.com/file/d/1weyC4EiK1SVMONMlMGk30Jc1bhiJChel/view?usp=sharing
 
